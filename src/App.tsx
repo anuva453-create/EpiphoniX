@@ -3,7 +3,8 @@ import { useState, useEffect, useMemo, type ReactNode } from "react";
 import logoImg from "@/imports/Gemini_Generated_Image_lzcsg0lzcsg0lzcs-Photoroom.png";
 import dividerImg from "@/imports/divider.png";
 import scenarioLogoImg from "@/imports/scenario-logo.png";
-import networkVideoSrc from "@/videos/Animated EpiphoniX Network.mp4";
+// Direct Cloudinary URL (replace with your actual Cloudinary video link)
+const networkVideoSrc = "https://res.cloudinary.com/lxo3kbga/video/upload/v1791099610/Animated_Epiphonix_Network.mp4";
 function EpiphonixLogo({ size = 48 }: { size?: number }) {
   return (
     <img
