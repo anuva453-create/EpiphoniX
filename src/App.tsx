@@ -3,7 +3,6 @@ import { useState, useEffect, useMemo, type ReactNode } from "react";
 import logoImg from "@/imports/Gemini_Generated_Image_lzcsg0lzcsg0lzcs-Photoroom.png";
 import dividerImg from "@/imports/divider.png";
 import scenarioLogoImg from "@/imports/scenario-logo.png";
-import whatifIconImg from "@/imports/whatif-icon.png";
 import networkVideoSrc from "@/videos/Animated EpiphoniX Network.mp4";
 function EpiphonixLogo({ size = 48 }: { size?: number }) {
   return (
@@ -1000,7 +999,7 @@ function HeroSection() {
             loop
             muted
             playsInline
-            className="absolute inset-0 w-full h-full object-contain scale-140 pointer-events-none z-0"
+            className="absolute inset-0 w-full h-full object-contain scale-130 pointer-events-none z-0"
             style={{
               mixBlendMode: "screen", // KEY blend mode to drop out black
               filter: "brightness(1.4) contrast(1.1) saturate(1.3)", // Makes nodes bright & vibrant without crushing lines
