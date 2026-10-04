@@ -4,7 +4,7 @@ import logoImg from "@/imports/Gemini_Generated_Image_lzcsg0lzcsg0lzcs-Photoroom
 import dividerImg from "@/imports/divider.png";
 import scenarioLogoImg from "@/imports/scenario-logo.png";
 import whatifIconImg from "@/imports/whatif-icon.png";
-import networkVideoSrc from "@/videos/Animated EpiphoniX Network .mp4";
+import networkVideoSrc from "@/videos/Animated EpiphoniX Network.mp4";
 function EpiphonixLogo({ size = 48 }: { size?: number }) {
   return (
     <img
