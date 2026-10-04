@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect, useMemo, type ReactNode } from "react";
-import logoImg from "@/imports/Gemini_Generated_Image_lzcsg0lzcsg0lzcs-Photoroom.png";
+import logoImg from "@/imports/EpiphoniX logo.png";
 import dividerImg from "@/imports/divider.png";
 import scenarioLogoImg from "@/imports/scenario-logo.png";
 // Direct Cloudinary URL (replace with your actual Cloudinary video link)
